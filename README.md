@@ -8,9 +8,9 @@ password authentication module
 <body>
 <div class="main">
 <b>Password:</b><br>
-<input type="password" id="password" autofocus class="passlength" onkeyup="match();length();CheckPasswordStrength(this.value);" />    <span id="password_strength"></span><br>
+<input type="text" id="pass1" autofocus class="passlength" onkeyup="match();length();CheckPasswordStrength(this.value);" />    <span id="password_strength"></span><br>
 <b>Retype password:</b><br> 
-<input type="password" id="repass"  onkeyup="match();length();"/> <br>
+<input type="text" id="repass1"  onkeyup="match();length();"/> <br>
 <label id="lbl_check"> </label><br>
 <label id="lbl_length"> </label><br>
 <label id="lbl_strength"> </label>
