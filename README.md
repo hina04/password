@@ -11,7 +11,7 @@ password authentication module
 <input type="text" id="pass1" autofocus class="passlength" onkeyup="match();length();CheckPasswordStrength(this.value);" />    <span id="password_strength"></span><br>
 <b>Retype password:</b><br> 
 <input type="text" id="repass1"  onkeyup="match();length();"/> <br>
-<form><input type="checkbox" name="checkbox" value="login" checked>Keep me log in<br></form>
+<input type="checkbox" name="checkbox" value="login" checked>Keep me log in<br>
 <label id="lbl_check"> </label><br>
 <label id="lbl_length"> </label><br>
 <label id="lbl_strength"> </label>
